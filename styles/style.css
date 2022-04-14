@@ -13,13 +13,161 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  display: flex;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 3;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  width: 730px;
+  margin-left: 64px;
+  z-index: 2;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bolder;
+}
+
+.header__subtitle {
+  margin: 0;
+  padding: 0;
+  width: 388px;
+  align-items: flex-end;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  z-index: 2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  background-image: url(../images/two_again.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  width:765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
 .header__square-pic {
+  background-color: #2f80ed;
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: -1;
+}
+
+.two-columns {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+} 
+
+.two-columns__brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  flex-direction: column;
+  min-width: 784px;
+  width: 80%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.section-title {
+  margin: 100px auto 20px;
+  width: 60%;
+  text-align: center;
+  line-height: 1.12;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 100px;
+}
+
+.section-subtitle {
+  margin: 20px auto 0;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  margin-top: 60px;
+  width: 250px;
+}
+
+.table__heading {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.table__text {
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
