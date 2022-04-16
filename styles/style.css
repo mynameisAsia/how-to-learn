@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -302,14 +298,13 @@ p {
 
 .footer__column_content_copyright {
   flex-basis: 711px;
+  position: relative;
 }
 
-.footer__logo_place_footer {
+.logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 228px;
-  height: 32px;
 }
 
 .footer__author {
@@ -317,6 +312,9 @@ p {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .footer__column-heading {
