@@ -141,22 +141,19 @@
 .table {
   max-width: 1100px;
   margin: 0 auto 100px;
+  padding-top: 60px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
 }
   
 .table__cell {
-  margin-top: 60px;
   width: 250px;
+  list-style: none;
 }
   
 .table__heading {
-  margin-top: 20px;
-  padding: 0;
-  list-style: none;
+  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
@@ -165,7 +162,6 @@
 .table__text {
   margin: 20px 0;
   padding: 0;
-  list-style: none;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -193,8 +189,7 @@
 }
   
 .feynman__subtitle {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -227,21 +222,14 @@
   
 .section-subtitle_theme_dark {
   margin: 20px auto 0;
-  padding: 0;
   width: 60%;
   color: white;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   z-index: 2;
 }
   
 .table_theme_dark {
-  width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 90px;
+  margin: 0 auto 90px;
+  padding-top: 80px;
   display: flex;
   justify-content: space-between;
   align-content: space-between;
@@ -251,23 +239,9 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
   z-index: 2;
 }
-  
-.table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bolder;
-}
-  
-.table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-  
+
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -308,26 +282,27 @@
 }
   
 .footer__author {
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
   
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: bolder;
 }
   
 .footer__column-links {
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   padding: 0;
   list-style: none;
 }
   
 .footer__column-link {
-  margin-bottom: 10px;
+  margin: 0 0 10px;
 }
   
 .footer__link {
@@ -336,11 +311,6 @@
 }
   
 .footer__social-icon {
-  color: white;
-  text-decoration: none;
-}
-  
-.footer__social-icon-logo {
   width: 16px;
   height: 16px;
   margin-right: 10px;
