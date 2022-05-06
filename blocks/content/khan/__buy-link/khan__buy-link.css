@@ -1,9 +1,11 @@
 .khan__buy-link {
+    height: fit-content;
     text-decoration: none;
     color: #2f80ed;
     line-height: 42px;
     font-size: 30px;
     font-weight: normal;
+    box-sizing: border-box;
     opacity: 1;
     transition: opacity 1s ease;
   }
