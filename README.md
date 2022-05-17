@@ -1,5 +1,5 @@
 # Научиться учиться  
-[https://mynameisasia.github.io/how-to-learn/index.html]
+[https://mynameisasia.github.io/how-to-learn/index.html]  
 Проект описывает современные и эффективные подходы к обучению.   
 В проект включены следующие блоки: 
 1. Введение. 
